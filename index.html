@@ -14,33 +14,33 @@
       <article id="adding-element">
         <label for="new-task" class="adding-element__label">Add Item</label>
         <section class="task-wrapper">
-          <input id="new-task" class="task-wrapper__task task" type="text">
+          <input id="new-task" class="task-wrapper__input task" type="text">
           <button class="task-wrapper__button">Add</button>
         </section>
       </article>
       <h3 class="main__title">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="incomplete-tasks__item">
-          <input class="main__input" type="checkbox">
+          <input class="main__input main__input_checkbox" type="checkbox">
           <label class="main__label task">Pay Bills</label>
-          <input class="main__input" type="text">
+          <input class="main__input main__input_text" type="text">
           <button class="main__button_edit">Edit</button>
           <button class="main__button_delete"><img src="./remove.svg" alt=""></button>
         </li>
         <li class="incomplete-tasks__item edit-mode">
-          <input class="main__input" type="checkbox">
+          <input class="main__input main__input_checkbox" type="checkbox">
           <label class="main__label task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
+          <input type="text" value="Go Shopping" class="main__input main__input_text task">
           <button class="main__button_edit">Save</button>
           <button class="main__button_delete"><img src="./remove.svg" alt=""></button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="main__title">Completed</h3>
       <ul id="completed-tasks">
         <li class="completed-tasks__item">
-          <input class="main__input" type="checkbox" checked>
+          <input class="main__input main__input_checkbox" type="checkbox" checked>
           <label class="main__label task">See the Doctor</label>
-          <input class="main__input" type="text" class="task">
+          <input class="main__input main__input_text" type="text" class="task">
           <button class="main__button_edit">Edit</button>
           <button class="main__button_delete"><img src="./remove.svg" alt=""></button>
         </li>
